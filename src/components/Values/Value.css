@@ -63,4 +63,15 @@
     font-size: 1.1rem;
     font-weight: 500; /* Ensuring better readability */
   }
+
+  @media (max-width: 1024px){
+    .v-container{
+      flex-direction: column;
+    }
+    @media(max-width: 768px){
+      .accordionButton .primaryText{
+        font-size: 0.8rem;
+      }
+    }
+  }
   
